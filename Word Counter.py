@@ -1,7 +1,5 @@
-import os
 import re
-os.chdir('C:\\Users\\Jack\\Documents\\Programming Projects\\..Python')
-print('Current Directory: ' + os.getcwd())
+#print('Current Directory: ' + os.getcwd())
 testFile = open('Input.txt')
 testRead = testFile.read()
 testFile.close()
